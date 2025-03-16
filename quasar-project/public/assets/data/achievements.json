@@ -1,0 +1,52 @@
+{
+  "achievements": [
+    {
+      "id": "first_win",
+      "title": "First Victory",
+      "description": "Win your first game.",
+      "icon": "trophy"
+    },
+    {
+      "id": "memory_master",
+      "title": "Memory Master",
+      "description": "Win 10 Memory Match mini-games.",
+      "icon": "brain"
+    },
+    {
+      "id": "math_genius",
+      "title": "Math Genius",
+      "description": "Get all answers correct in Quick Math 5 times.",
+      "icon": "calculator"
+    },
+    {
+      "id": "speed_demon",
+      "title": "Speed Demon",
+      "description": "Complete the Speed Runner in record time.",
+      "icon": "running"
+    },
+    {
+      "id": "sharpshooter",
+      "title": "Sharpshooter",
+      "description": "Hit 95% of targets in Target Shooter.",
+      "icon": "bullseye"
+    },
+    {
+      "id": "perfect_timing",
+      "title": "Perfect Timing",
+      "description": "Get a perfect hit in Reaction Challenge.",
+      "icon": "stopwatch"
+    },
+    {
+      "id": "ai_master",
+      "title": "AI Master",
+      "description": "Win a game against the hard AI.",
+      "icon": "robot"
+    },
+    {
+      "id": "completionist",
+      "title": "Completionist",
+      "description": "Win at least once with each mini-game.",
+      "icon": "star"
+    }
+  ]
+}

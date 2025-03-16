@@ -6,17 +6,17 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 
 ### 1.1 UI and Common Elements
 
-#### 1.1.1 Backgrounds
+#### 1.1.1 Backgrounds [X]
 - `assets/images/backgrounds/main-menu-bg.png` - Main menu background (1920×1080px, colorful game-themed design)
 - `assets/images/backgrounds/board-bg.png` - Tic-tac-toe board background (1920×1080px)
 - `assets/images/backgrounds/settings-bg.png` - Settings screen background (1920×1080px)
 - `assets/images/backgrounds/high-scores-bg.png` - High scores screen background (1920×1080px)
 
-#### 1.1.2 Logo and Branding
+#### 1.1.2 Logo and Branding [X]
 - `assets/images/logo/game-logo.png` - Game logo (800×400px, transparent background)
 - `assets/images/logo/game-icon.png` - App icon (512×512px for stores/PWA)
 
-#### 1.1.3 UI Elements
+#### 1.1.3 UI Elements [Need to Find]
 - `assets/images/ui/buttons-sprite.png` - Button sprite sheet (various states: normal, hover, pressed)
 - `assets/images/ui/icons-sprite.png` - UI icons sprite sheet (settings, sound, music, home, etc.)
 - `assets/images/ui/panel-backgrounds.png` - Various UI panels and windows backgrounds
@@ -27,7 +27,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 - `assets/images/ui/slider-track.png` - Slider track background
 - `assets/images/ui/slider-thumb.png` - Slider handle/thumb
 
-#### 1.1.4 Game Board
+#### 1.1.4 Game Board [Need to Find]
 - `assets/images/board/board-grid.png` - Tic-tac-toe grid (empty board)
 - `assets/images/board/x-marker.png` - X marker sprite (with animation frames)
 - `assets/images/board/o-marker.png` - O marker sprite (with animation frames)
@@ -36,7 +36,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 
 ### 1.2 Mini-Game Assets
 
-#### 1.2.1 Reaction Challenge
+#### 1.2.1 Reaction Challenge [Need to Find]
 - `assets/images/mini-games/reaction/background.png` - Game-specific background
 - `assets/images/mini-games/reaction/marker.png` - Moving marker sprite
 - `assets/images/mini-games/reaction/target-zone.png` - Target zone indicator
@@ -44,7 +44,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 - `assets/images/mini-games/reaction/result-display.png` - Result display frame
 - `assets/images/mini-games/reaction/icon.png` - Mini-game selection icon
 
-#### 1.2.2 Memory Match
+#### 1.2.2 Memory Match [Need to Find]
 - `assets/images/mini-games/memory/background.png` - Game-specific background
 - `assets/images/mini-games/memory/card-back.png` - Card back design
 - `assets/images/mini-games/memory/card-frame.png` - Card frame/border
@@ -53,7 +53,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 - `assets/images/mini-games/memory/board-frame.png` - Frame around the memory board
 - `assets/images/mini-games/memory/icon.png` - Mini-game selection icon
 
-#### 1.2.3 Speed Runner
+#### 1.2.3 Speed Runner [Need to Find]
 - `assets/images/mini-games/runner/background-layers.png` - Parallax background layers
 - `assets/images/mini-games/runner/character-x-spritesheet.png` - X character run/jump animation
 - `assets/images/mini-games/runner/character-o-spritesheet.png` - O character run/jump animation
@@ -63,7 +63,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 - `assets/images/mini-games/runner/dust-particles.png` - Running dust particle effects
 - `assets/images/mini-games/runner/icon.png` - Mini-game selection icon
 
-#### 1.2.4 Quick Math
+#### 1.2.4 Quick Math [Need to Find]
 - `assets/images/mini-games/math/background.png` - Game-specific background
 - `assets/images/mini-games/math/number-buttons.png` - Number input buttons (0-9)
 - `assets/images/mini-games/math/operator-symbols.png` - Math operators (+, -, ×, ÷)
@@ -72,7 +72,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 - `assets/images/mini-games/math/wrong-effect.png` - Effect for wrong answer
 - `assets/images/mini-games/math/icon.png` - Mini-game selection icon
 
-#### 1.2.5 Target Shooter
+#### 1.2.5 Target Shooter [Need to Find]
 - `assets/images/mini-games/shooter/background.png` - Game-specific background
 - `assets/images/mini-games/shooter/target-spritesheet.png` - Target appearance/pop animation
 - `assets/images/mini-games/shooter/hit-effect.png` - Effect when target is hit
@@ -80,7 +80,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 - `assets/images/mini-games/shooter/score-popup.png` - Point score popup
 - `assets/images/mini-games/shooter/icon.png` - Mini-game selection icon
 
-### 1.3 Effect Assets
+### 1.3 Effect Assets [Need to Find]
 - `assets/images/effects/particle-sheet.png` - Common particle effects (sparkles, smoke, etc.)
 - `assets/images/effects/win-celebration.png` - Win celebration effects
 - `assets/images/effects/confetti.png` - Confetti particles for victories
@@ -158,7 +158,7 @@ This document outlines all assets required for the Tic-Tac-Toe Mini-Game Variant
 - `assets/audio/voice/ready.mp3` - "Ready?" voice
 - `assets/audio/voice/go.mp3` - "Go!" voice
 
-## 3. Font Assets
+## 3. Font Assets [Need to Find]
 - `assets/fonts/main-font.woff2` - Main game font (WOFF2 format for web)
 - `assets/fonts/title-font.woff2` - Title/header font
 - `assets/fonts/score-font.woff2` - Special font for scores and numbers

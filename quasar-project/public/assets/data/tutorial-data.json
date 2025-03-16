@@ -1,0 +1,28 @@
+{
+  "main": [
+    "Welcome to FoFo's Super Tic-Tac-Toe!",
+    "This game combines classic Tic-Tac-Toe with fun mini-games.",
+    "To claim a square, you'll need to win a mini-game.",
+    "Get three in a row to win the game!"
+  ],
+  "reaction": [
+    "Tap when the marker reaches the target zone.",
+    "Perfect timing wins!"
+  ],
+  "memory": [
+    "Find matching pairs of cards.",
+    "Remember card locations to win."
+  ],
+  "runner": [
+    "Jump over obstacles to reach the finish line.",
+    "First to finish wins!"
+  ],
+  "math": [
+    "Solve math problems quickly.",
+    "The fastest correct answer wins!"
+  ],
+  "shooter": [
+    "Tap targets as they appear.",
+    "Most targets hit wins!"
+  ]
+}

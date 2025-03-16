@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="bg-primary">
       <q-toolbar>
         <q-btn
           flat
@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          FoFo's Super Tic-Tac-Toe
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <q-btn flat to="/game" label="Play Game" class="q-ml-md" />
       </q-toolbar>
     </q-header>
 
@@ -23,12 +23,14 @@
       v-model="leftDrawerOpen"
       show-if-above
       bordered
+      class="bg-grey-1"
     >
       <q-list>
         <q-item-label
           header
+          class="text-grey-8"
         >
-          Essential Links
+          Navigation
         </q-item-label>
 
         <EssentialLink
@@ -42,6 +44,18 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-footer class="bg-primary text-white">
+      <q-toolbar>
+        <q-toolbar-title>
+          <div class="row justify-center q-py-sm">
+            <div class="col-12 text-center">
+              © {{ new Date().getFullYear() }} FoFo's Super Tic-Tac-Toe - All rights reserved
+            </div>
+          </div>
+        </q-toolbar-title>
+      </q-toolbar>
+    </q-footer>
   </q-layout>
 </template>
 
@@ -51,46 +65,28 @@ import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink
 
 const linksList: EssentialLinkProps[] = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Home',
+    caption: 'Landing Page',
+    icon: 'home',
+    link: '/'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Play Game',
+    caption: 'Start playing now',
+    icon: 'sports_esports',
+    link: '/game'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Privacy Policy',
+    caption: 'Our privacy practices',
+    icon: 'privacy_tip',
+    link: '/privacy'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    title: 'Terms of Service',
+    caption: 'Legal terms and conditions',
+    icon: 'gavel',
+    link: '/terms'
   }
 ];
 
@@ -100,3 +96,10 @@ function toggleLeftDrawer () {
   leftDrawerOpen.value = !leftDrawerOpen.value;
 }
 </script>
+
+<style scoped>
+.q-toolbar__title {
+  text-align: center;
+  font-weight: bold;
+}
+</style>

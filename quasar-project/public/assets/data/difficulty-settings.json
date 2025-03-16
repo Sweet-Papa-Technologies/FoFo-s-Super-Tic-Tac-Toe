@@ -1,0 +1,29 @@
+{
+  "easy": {
+    "strategicDepth": 1,
+    "mistakeChance": 0.4,
+    "reactionError": 50,
+    "memoryError": 0.5,
+    "runnerSpeed": 0.8,
+    "mathDelay": 2000,
+    "shooterAccuracy": 0.5
+  },
+  "medium": {
+    "strategicDepth": 2,
+    "mistakeChance": 0.2,
+    "reactionError": 25,
+    "memoryError": 0.25,
+    "runnerSpeed": 0.9,
+    "mathDelay": 1000,
+    "shooterAccuracy": 0.75
+  },
+  "hard": {
+    "strategicDepth": 3,
+    "mistakeChance": 0.05,
+    "reactionError": 10,
+    "memoryError": 0.1,
+    "runnerSpeed": 1.0,
+    "mathDelay": 300,
+    "shooterAccuracy": 0.9
+  }
+}

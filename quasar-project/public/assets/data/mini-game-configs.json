@@ -1,0 +1,29 @@
+{
+  "reaction": {
+    "defaultDuration": 5000,
+    "targetWidth": 20,
+    "markerSpeed": 2000
+  },
+  "memory": {
+    "defaultDuration": 30000,
+    "gridSize": 4,
+    "pairCount": 8
+  },
+  "runner": {
+    "defaultDuration": 15000,
+    "baseSpeed": 300,
+    "jumpForce": 550,
+    "gravity": 1200
+  },
+  "math": {
+    "defaultDuration": 10000,
+    "questionCount": 5,
+    "operations": ["+", "-", "*", "/"]
+  },
+  "shooter": {
+    "defaultDuration": 15000,
+    "targetSpawnRate": 1000,
+    "targetShrinkRate": 0.1,
+    "pointsPerTarget": 10
+  }
+}
